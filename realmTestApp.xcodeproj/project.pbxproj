@@ -13,9 +13,19 @@
 		4BE30DF72761C20700C713E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE30DF52761C20700C713E1 /* Main.storyboard */; };
 		4BE30DF92761C20A00C713E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE30DF82761C20A00C713E1 /* Assets.xcassets */; };
 		4BE30DFC2761C20A00C713E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE30DFA2761C20A00C713E1 /* LaunchScreen.storyboard */; };
+		4BE30E062761C5DC00C713E1 /* MarketListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE30E042761C5DC00C713E1 /* MarketListTableViewCell.swift */; };
+		4BE30E072761C5DC00C713E1 /* MarketListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE30E052761C5DC00C713E1 /* MarketListTableViewCell.xib */; };
+		4BE30E092761CAD300C713E1 /* RestaurantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE30E082761CAD300C713E1 /* RestaurantInfo.swift */; };
+		4BE30E0B2761D00B00C713E1 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE30E0A2761D00B00C713E1 /* MenuList.swift */; };
+		4BE30E0D2762108900C713E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE30E0C2762108900C713E1 /* MainViewController.swift */; };
+		4BE30E10276212E800C713E1 /* MainPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE30E0E276212E800C713E1 /* MainPageTableViewCell.swift */; };
+		4BE30E11276212E800C713E1 /* MainPageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE30E0F276212E800C713E1 /* MainPageTableViewCell.xib */; };
+		F916FF5CF56E78051A0EBC20 /* Pods_realmTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBEC641EE3D451AE28BA34F /* Pods_realmTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DBEC641EE3D451AE28BA34F /* Pods_realmTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realmTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E00813CD37154A3B5E3E1D /* Pods-realmTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmTestApp.release.xcconfig"; path = "Target Support Files/Pods-realmTestApp/Pods-realmTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		4BE30DEC2761C20700C713E1 /* realmTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realmTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE30DEF2761C20700C713E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BE30DF12761C20700C713E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		4BE30DF82761C20A00C713E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BE30DFB2761C20A00C713E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BE30DFD2761C20A00C713E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE30E042761C5DC00C713E1 /* MarketListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketListTableViewCell.swift; sourceTree = "<group>"; };
+		4BE30E052761C5DC00C713E1 /* MarketListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketListTableViewCell.xib; sourceTree = "<group>"; };
+		4BE30E082761CAD300C713E1 /* RestaurantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfo.swift; sourceTree = "<group>"; };
+		4BE30E0A2761D00B00C713E1 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		4BE30E0C2762108900C713E1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4BE30E0E276212E800C713E1 /* MainPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageTableViewCell.swift; sourceTree = "<group>"; };
+		4BE30E0F276212E800C713E1 /* MainPageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainPageTableViewCell.xib; sourceTree = "<group>"; };
+		AB6171B25F63DF968036B326 /* Pods-realmTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmTestApp.debug.xcconfig"; path = "Target Support Files/Pods-realmTestApp/Pods-realmTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F916FF5CF56E78051A0EBC20 /* Pods_realmTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				4BE30DEE2761C20700C713E1 /* realmTestApp */,
 				4BE30DED2761C20700C713E1 /* Products */,
+				5D2CA7362B4A3C707B80BDE8 /* Pods */,
+				BFE2F37DA73011675A22759E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,47 @@
 		4BE30DEE2761C20700C713E1 /* realmTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				4BE30DEF2761C20700C713E1 /* AppDelegate.swift */,
-				4BE30DF12761C20700C713E1 /* SceneDelegate.swift */,
-				4BE30DF32761C20700C713E1 /* ViewController.swift */,
+				4BE30E032761C21000C713E1 /* configuration */,
 				4BE30DF52761C20700C713E1 /* Main.storyboard */,
 				4BE30DF82761C20A00C713E1 /* Assets.xcassets */,
 				4BE30DFA2761C20A00C713E1 /* LaunchScreen.storyboard */,
 				4BE30DFD2761C20A00C713E1 /* Info.plist */,
+				4BE30E042761C5DC00C713E1 /* MarketListTableViewCell.swift */,
+				4BE30E052761C5DC00C713E1 /* MarketListTableViewCell.xib */,
+				4BE30E082761CAD300C713E1 /* RestaurantInfo.swift */,
+				4BE30E0A2761D00B00C713E1 /* MenuList.swift */,
+				4BE30DF32761C20700C713E1 /* ViewController.swift */,
+				4BE30E0C2762108900C713E1 /* MainViewController.swift */,
+				4BE30E0E276212E800C713E1 /* MainPageTableViewCell.swift */,
+				4BE30E0F276212E800C713E1 /* MainPageTableViewCell.xib */,
 			);
 			path = realmTestApp;
+			sourceTree = "<group>";
+		};
+		4BE30E032761C21000C713E1 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				4BE30DEF2761C20700C713E1 /* AppDelegate.swift */,
+				4BE30DF12761C20700C713E1 /* SceneDelegate.swift */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		5D2CA7362B4A3C707B80BDE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB6171B25F63DF968036B326 /* Pods-realmTestApp.debug.xcconfig */,
+				46E00813CD37154A3B5E3E1D /* Pods-realmTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFE2F37DA73011675A22759E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DBEC641EE3D451AE28BA34F /* Pods_realmTestApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BE30E002761C20A00C713E1 /* Build configuration list for PBXNativeTarget "realmTestApp" */;
 			buildPhases = (
+				922FE438A155ABA616540030 /* [CP] Check Pods Manifest.lock */,
 				4BE30DE82761C20700C713E1 /* Sources */,
 				4BE30DE92761C20700C713E1 /* Frameworks */,
 				4BE30DEA2761C20700C713E1 /* Resources */,
+				D8E3BC7D8FDE0B4C30643581 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +181,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BE30DFC2761C20A00C713E1 /* LaunchScreen.storyboard in Resources */,
+				4BE30E11276212E800C713E1 /* MainPageTableViewCell.xib in Resources */,
 				4BE30DF92761C20A00C713E1 /* Assets.xcassets in Resources */,
 				4BE30DF72761C20700C713E1 /* Main.storyboard in Resources */,
+				4BE30E072761C5DC00C713E1 /* MarketListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		922FE438A155ABA616540030 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realmTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E3BC7D8FDE0B4C30643581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realmTestApp/Pods-realmTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realmTestApp/Pods-realmTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-realmTestApp/Pods-realmTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4BE30DE82761C20700C713E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE30E0D2762108900C713E1 /* MainViewController.swift in Sources */,
+				4BE30E092761CAD300C713E1 /* RestaurantInfo.swift in Sources */,
 				4BE30DF42761C20700C713E1 /* ViewController.swift in Sources */,
+				4BE30E10276212E800C713E1 /* MainPageTableViewCell.swift in Sources */,
 				4BE30DF02761C20700C713E1 /* AppDelegate.swift in Sources */,
 				4BE30DF22761C20700C713E1 /* SceneDelegate.swift in Sources */,
+				4BE30E0B2761D00B00C713E1 /* MenuList.swift in Sources */,
+				4BE30E062761C5DC00C713E1 /* MarketListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +388,7 @@
 		};
 		4BE30E012761C20A00C713E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6171B25F63DF968036B326 /* Pods-realmTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +416,7 @@
 		};
 		4BE30E022761C20A00C713E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E00813CD37154A3B5E3E1D /* Pods-realmTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
