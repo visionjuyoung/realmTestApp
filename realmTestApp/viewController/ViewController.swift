@@ -35,9 +35,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setTableView()
         realm = try! Realm()
-        try! realm.write{
-            realm.add(market)
-        }
         self.naviBar.topItem?.title = "1인분"
         print(Realm.Configuration.defaultConfiguration.fileURL)
     }
@@ -67,8 +64,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }
         let info = realm.objects(RestaurantInfo.self)
         cell.updateUI(cellData: info[indexPath.row])
+        cell.selectionStyle = .none
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "MarketViewController") as? MarketViewController else { return }
+        let info = realm.objects(RestaurantInfo.self)
+        vc.marketName = info[indexPath.row].name
+        vc.deliveryTip = info[indexPath.row].deliveryTip1
+        vc.leastOrderPrice = info[indexPath.row].leastOrder
+        present(vc, animated: false, completion: nil)
+    }
 }

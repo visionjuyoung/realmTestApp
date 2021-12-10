@@ -13,14 +13,27 @@ class MainViewController: UIViewController {
     
     var realm: Realm!
 
+    @IBOutlet weak var naviBar: UINavigationBar!
     @IBOutlet weak var bannerImageView: UIImageView!
     @IBOutlet weak var mainPageTableView: UITableView!
+    @IBOutlet weak var tabBar: UITabBar!
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var button4: UIButton!
+    @IBOutlet weak var button5: UIButton!
+    @IBOutlet weak var button6: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setBanner()
         realm = try! Realm()
         setTableView()
+        setbutton()
+        button1.backgroundColor = UIColor(named: "baeminColor")
+        button1.tintColor = .white
+        self.naviBar.topItem?.title = "경기 수원시 영통구"
     }
     
     func setBanner() {
@@ -42,6 +55,23 @@ class MainViewController: UIViewController {
         mainPageTableView.delegate = self
         mainPageTableView.register(UINib(nibName: "MainPageTableViewCell", bundle: nil), forCellReuseIdentifier: "MainPageTableViewCell")
     }
+    
+    func setbutton() {
+        let buttons: [UIButton] = [button1, button2,button3,button4,button5,button6]
+        
+        for button in buttons {
+            button.layer.cornerRadius = 10
+            button.backgroundColor = .white
+            button.tintColor = .systemGray4
+        }
+    }
+    
+    @IBAction func pressNaviButton(_ sender: UIButton) {
+        setbutton()
+        sender.backgroundColor = UIColor(named: "baeminColor")
+        sender.tintColor = .white
+    }
+    
     
     @IBAction func onePersonSectionButton(_ sender: Any) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController") as? ViewController else {
